@@ -1,0 +1,86 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Data/Projects/ConSurvBuild/Submodules/ConSurv/ConSurvApp/Other/Reference",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/Hints.md",
+      "output": {
+        ".html": {
+          "relative_path": "Hints.html",
+          "hash": "g4vCwydr4YkgS6phy6AUAqdZJehZVgS28j3ubt85QLE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "ReferenceContent/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "x1X+Xeaotk6rJrYxdsfXFMpBdeAt1/9wkdpLCgcGWn8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "ReferenceContent/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "FdYjJisfOIsjpuS8evujeootyLmzI9xNfYwCGE288nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
